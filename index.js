@@ -5,6 +5,6 @@ app.get("/",(req,res)=>{
     res.send("Welcome from server 2")
 })
 
-app.listen(8800,()=>{
+app.listen(8080,()=>{
     console.log("server is running")
 })

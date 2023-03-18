@@ -2,7 +2,7 @@ const express= require("express");
 const app= express();
 
 app.get("/",(req,res)=>{
-    res.send("Welcome from server 2")
+    res.send("Welcome from server 1")
 })
 
 app.listen(8080,()=>{
